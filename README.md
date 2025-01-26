@@ -12,14 +12,10 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     git clone https://github.com/raspberrypi/pico-sdk
     ```
 
-2. Vá para o diretório `pico-sdk`, imprima o caminho até o `pico-sdk` e copie.
+2. Vá para o diretório `pico-sdk`.
     ```sh
     cd pico-sdk
     ```
-    ```sh
-    pwd
-    ```
-    > (Aparecerá algo semelhante a `./caminho-para-o-diretorio/pico-sdk`)
 
 3. Instale o `cmake`:
     ```sh
@@ -41,12 +37,18 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     git submodule update --init
     ```
 
-7. Abra o arquivo de configurações do Bash para edição.
+7. Imprima o caminho até o `pico-sdk` e copie
+    ```sh
+    pwd
+    ```
+    > (Aparecerá algo semelhante a `./caminho-para-o-diretorio/pico-sdk`)
+
+8. Abra o arquivo de configurações do Bash para edição.
     ```sh
     nano ~/.bashrc
     ```
 
-8. Na última linha do arquivo `.bashrc`, escreva o caminho para o `pico-sdk` e `pico-examples`, conforme necessário:
+9. Na última linha do arquivo `.bashrc`, escreva o caminho para o `pico-sdk` e `pico-examples`, conforme necessário:
     ```sh
     export PICO_SDK_PATH=./caminho-para-o-diretorio/pico-sdk
     ```
@@ -55,7 +57,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     export PICO_EXAMPLES_PATH=./caminho-para-o-diretorio/pico-examples
     ```
 
-9. Recarregue as configurações do `.bashrc` no terminal atual.
+10. Recarregue as configurações do `.bashrc` no terminal atual.
     ```sh
     source ~/.bashrc
     ```
