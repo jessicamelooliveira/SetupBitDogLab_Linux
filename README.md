@@ -4,9 +4,9 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 <details>
 <summary><h2>Parte 1: Organizando o ambiente Ubuntu</h2></summary>
     
-1. Vá para um diretório que você escolheu para guardar os arquivos do Pico (digamos que seja `./Documentos/configuracoes-pico`) e clone o diretório pico-sdk.
+1. Vá para um diretório que você escolheu para guardar os arquivos do Pico (digamos que seja `./caminho-para-o-diretorio`) e clone o diretório pico-sdk.
     ```sh
-    cd ./Documentos/configuracoes-pico
+    cd ./caminho-para-o-diretorio
     ```
     ```sh
     git clone https://github.com/raspberrypi/pico-sdk
@@ -19,7 +19,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     ```sh
     pwd
     ```
-    > (Aparecerá algo semelhante a `./Documentos/configuracoes-pico/pico-sdk`)
+    > (Aparecerá algo semelhante a `./caminho-para-o-diretorio/pico-sdk`)
 
 3. Instale o `cmake`:
     ```sh
@@ -36,10 +36,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     git clone https://github.com/raspberrypi/pico-examples
     ```
 
-6. Vá para o diretório `pico-sdk`, inicialize e atualize os submódulos de um repositório Git.
-    ```sh
-    cd pico-sdk/
-    ```
+6. Inicialize e atualize os submódulos de um repositório Git.
     ```sh
     git submodule update --init
     ```
@@ -51,14 +48,12 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 
 8. Na última linha do arquivo `.bashrc`, escreva o caminho para o `pico-sdk` e `pico-examples`, conforme necessário:
     ```sh
-    export PICO_SDK_PATH=/opt/pico-sdk
+    export PICO_SDK_PATH=./caminho-para-o-diretorio/pico-sdk
     ```
     ou, se for o caso, para o diretório de exemplos:
     ```sh
-    export PICO_SDK_PATH=/opt/pico-examples
+    export PICO_EXAMPLES_PATH=./caminho-para-o-diretorio/pico-examples
     ```
-
-    > (Se o caminho não for `/opt/pico-sdk`, cole o caminho que você copiou anteriormente)
 
 9. Recarregue as configurações do `.bashrc` no terminal atual.
     ```sh
