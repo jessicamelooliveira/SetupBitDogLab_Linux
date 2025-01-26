@@ -4,9 +4,9 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 <details>
 <summary><h2>Parte 1: Organizando o ambiente Ubuntu</h2></summary>
     
-1. Vá para o diretório `/opt` e clone o diretório pico-sdk.
+1. Vá para um diretório que você escolheu para guardar os arquivos do Pico (digamos que seja `./Documentos/configuracoes-pico`) e clone o diretório pico-sdk.
     ```sh
-    cd /opt
+    cd ./Documentos/configuracoes-pico
     ```
     ```sh
     git clone https://github.com/raspberrypi/pico-sdk
@@ -19,7 +19,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     ```sh
     pwd
     ```
-    > (Aparecerá algo semelhante a `/opt/pico-sdk`)
+    > (Aparecerá algo semelhante a `./Documentos/configuracoes-pico/pico-sdk`)
 
 3. Instale o `cmake`:
     ```sh
