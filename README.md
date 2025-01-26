@@ -46,7 +46,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 
 7. Abra o arquivo de configurações do Bash para edição.
     ```sh
-    vi ~/.bashrc
+    nano ~/.bashrc
     ```
 
 8. Na última linha do arquivo `.bashrc`, escreva o caminho para o `pico-sdk` e `pico-examples`, conforme necessário:
@@ -59,15 +59,6 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
     ```
 
     > (Se o caminho não for `/opt/pico-sdk`, cole o caminho que você copiou anteriormente)
-
-    <details>
-    <summary>Salvar e sair do `vi`</summary>
-    
-    >Após editar o arquivo, para salvar e sair do `vi`, faça o seguinte:
-    >- Pressione `Esc` para sair do modo de inserção.
-    >- Digite `:wq` para salvar as mudanças e sair.
-
-    </details>
 
 9. Recarregue as configurações do `.bashrc` no terminal atual.
     ```sh
