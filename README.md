@@ -76,7 +76,7 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 </details>
 
 <details>
-<summary><h2>Parte 2</h2></summary>
+<summary><h2>Parte 2: Configurando o VSCode</h2></summary>
 
 1. Abra o VSCode, vá no ícone de extensões e instale o **CMake** e **CMakeTools**:
    ![cmake e cmaketools](https://github.com/IgorPFernandes/Curso_Capacitacao_Sistemas_Embarcados/blob/main/BitDogLab/img/cmake_cmaketools.png)<br>
@@ -92,5 +92,5 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
    ![generator](https://github.com/IgorPFernandes/Curso_Capacitacao_Sistemas_Embarcados/blob/main/BitDogLab/img/generator.png)<br>
 
    - De volta ao menu de extensões, procure por **Raspberry Pi Pico** e instale.  
-   ![raspberry pi pico extensão](img/raspb.png)<br>
+   ![raspberry pi pico extensão](https://github.com/IgorPFernandes/Curso_Capacitacao_Sistemas_Embarcados/blob/main/BitDogLab/img/raspb.png)<br>
 </details>
