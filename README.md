@@ -79,9 +79,10 @@ Como configurar o ambiente no Linux para utilizar a placa BitDogLab no VsCode.
 <summary><h2>Parte 2: Configurando o VSCode</h2></summary>
 
 1. Abra o VSCode, vá no ícone de extensões e instale o **CMake** e **CMakeTools**:
+   
    ![cmake e cmaketools](https://github.com/IgorPFernandes/Curso_Capacitacao_Sistemas_Embarcados/blob/main/BitDogLab/img/cmake_cmaketools.png)<br>
 
-2. O **CMakeTools** precisa ser configurado. Clique na engrenagem que aparece na tela do plug-in e selecione **Settings**.
+3. O **CMakeTools** precisa ser configurado. Clique na engrenagem que aparece na tela do plug-in e selecione **Settings**.
    - Procure pelo nome **CMake Path** e confirme que está escrito "cmake" (sem aspas).
    ![cmake path](https://github.com/IgorPFernandes/Curso_Capacitacao_Sistemas_Embarcados/blob/main/BitDogLab/img/cmakepath.png)<br>
 
